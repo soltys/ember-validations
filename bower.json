@@ -1,0 +1,21 @@
+{
+  "name": "ember-validations-soltys",
+  "version": "1.0.0",
+  "homepage": "https://github.com/soltys/ember-validations",
+  "authors": [
+    "Paweł Sołtysiak <soltys@uznam.org>"
+  ],
+  "ignore":[
+    "tmp/*"
+  ]
+  "description": "Soltys Version of Ember Validations",
+  "main": "dist/ember-validations.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ember",
+    "validation"
+  ],
+  "license": "MIT"
+}
