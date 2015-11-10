@@ -776,7 +776,7 @@ Ember.Validations.validators.local.Custom = Ember.Validations.validators.Base.ex
             this.set('options.message', Ember.Validations.messages.render('invalid', this.options));
         }
 
-	if (this.options.alsoWatch !== undefined) {
+if (this.options.alsoWatch !== undefined) {
             this._dependentValidationKeys.pushObject(this.options.alsoWatch);
         }
     },
@@ -808,6 +808,7 @@ Ember.Validations.validators.local.Custom = Ember.Validations.validators.Base.ex
         }
     }
 });
+
 })();
 
 
